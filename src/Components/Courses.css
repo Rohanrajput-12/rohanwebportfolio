@@ -1,0 +1,52 @@
+.courses-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  .btnStartWatching{
+    padding:10px 20px;
+    border-radius:20px;
+    background-color: #7E22CE;
+    color: white;
+    font-weight:bold;
+    border: none;
+    cursor: pointer;
+  }
+  .btnStartWatching:hover{
+    background-color: #893bce;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    width: 30%;
+  }
+  
+  .course-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .course-info {
+    padding: 20px;
+  }
+  
+  .course-title {
+    font-size: 20px;
+    color: #7a40d1;
+    margin-bottom: 10px;
+  }
+  
+  .course-description {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .course-card img {
+    border-radius: 8px 8px 0 0;
+  }
+  
